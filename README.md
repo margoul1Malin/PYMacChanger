@@ -7,6 +7,11 @@ Simple Python MAC Address Changer
 
 git clone https://github.com/margoul1Malin/PYMacChanger.git
 
+## Adding Requirements
+
+```python 
+pip install requirements.txt  
+```
 
 ## Usage:
 
