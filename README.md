@@ -5,7 +5,17 @@ Get Program : https://github.com/margoul1Malin/PYMacChanger.git
 
 Usage:
 
-python3 MAC_Changer.py -i <interface> -m <mac>
+The next command will show you available interfaces and display help message:
 
-A Random & Unicast Mac Address will be generated if u don't use -m/--mac option.
--i/--interface and ROOT PRIVILEGES are required to make the program work.
+python3 MAC_Changer.py   
+
+Once you know your interfaces
+
+python3 MAC_Changer.py -i interface_name <- Where interface_name is eth0 or wlan0 in most cases
+
+The above command will generate a random MAC Address but you can also choose the new MAC by typing:
+
+python3 MAC_Changer.py -i interface_name -m AA:BB:CC:DD:EE:FF
+
+
+
